@@ -27,9 +27,4 @@ Se implementan algoritmos para simular distribuciones continuas:
 
 - `/scripts/`: código fuente utilizado para los análisis y simulaciones.
 - `informe.pdf`: informe con resultados, gráficos y explicaciones.
-- `datos_cancelaciones.csv`: archivo de datos provisto (si aplica).
-
-## Autor
-
-Franco Fil - Cédula: [tu número]
-Entrega: mayo 2025
+- `datos_cancelaciones.csv`: archivo de datos provisto (si aplica)
