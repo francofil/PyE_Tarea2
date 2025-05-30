@@ -1,10 +1,10 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
 #Leemos archivo
-archivo = pd.read_csv("Parte1/cancelaciones.csv")
-
-
+ruta = os.path.join(os.path.dirname(__file__), "cancelaciones.csv")
+archivo = pd.read_csv(ruta)
 #Graficamos con funcion matpltlin
 
 plt.hist(archivo["cancelaciones"], range(archivo["cancelaciones"].min(), archivo["cancelaciones"].max()))
