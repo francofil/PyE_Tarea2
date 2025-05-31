@@ -1,9 +1,10 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-datos = pd.read_csv("Parte 1/cancelaciones.csv")
+ruta = os.path.join(os.path.dirname(__file__), "cancelaciones.csv")
+datos = pd.read_csv(ruta)
 cancelaciones = datos["cancelaciones"]
-
 
 #frecuencia absoluta
 frecuencia = cancelaciones.value_counts().sort_index()
